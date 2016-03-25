@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php while ( have_posts() ) : the_post(); 
 				$services= get_field('services');
 				$client= get_field('client');
 				$link= get_field('site_link');
@@ -30,8 +30,7 @@ get_header(); ?>
 			<h2><?php the_title(); ?></h2>
 			<h5><?php echo $services; ?></h5>
 			<?php the_excerpt(); ?>
-			<a href="<?php the_permalink(); ?>" class="read-more-link"> View Project <span>&rsaquo;</span></a>
-			
+			<a href="<?php the_permalink(); ?>" class="read-more-link"> View Project <span>&rsaquo;</span></a>			
 		</aside>
 
 			<?php if($image_1) { ?>
