@@ -92,7 +92,9 @@ div.case-study-images img{
 
 .individual-featured-work{
 	float: left;
-	width: 31%;
+	width: 30%;
+	margin: 12px;
+	list-style-type: none;
 }
 
 .individual-featured-work h3 {
