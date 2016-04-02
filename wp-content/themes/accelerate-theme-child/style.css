@@ -100,3 +100,30 @@ div.case-study-images img{
 .individual-featured-work h3 {
  
 }
+#content{
+
+}
+
+.title{
+	font-weight: bold;
+}
+
+.content{
+	float: left;
+	margin-right: 140px;
+	margin-left: 140px;
+}
+
+.header-main{
+
+}
+
+.menu-item{
+	text-transform:uppercase;
+	float: left;
+	width: 20%;
+	margin: 12px;
+}
+#masthead{
+	height: 60px;
+}
