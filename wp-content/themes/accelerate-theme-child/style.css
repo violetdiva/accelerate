@@ -109,7 +109,7 @@ div.case-study-images img{
 }
 
 .narrow-content{
-	float: left;
+
 	margin-right: 180px;
 	margin-left: 180px;	
 }
@@ -135,5 +135,4 @@ width: 300px;
 
 #ninja_forms_field_2{
 width: 300px;
-float: left;
 }
