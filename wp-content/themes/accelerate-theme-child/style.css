@@ -108,10 +108,10 @@ div.case-study-images img{
 	font-weight: bold;
 }
 
-.content{
+.narrow-content{
 	float: left;
-	margin-right: 140px;
-	margin-left: 140px;
+	margin-right: 180px;
+	margin-left: 180px;	
 }
 
 .header-main{
@@ -126,4 +126,14 @@ div.case-study-images img{
 }
 #masthead{
 	height: 60px;
+}
+
+#ninja_forms_field_1{
+width: 300px;
+
+}
+
+#ninja_forms_field_2{
+width: 300px;
+float: left;
 }

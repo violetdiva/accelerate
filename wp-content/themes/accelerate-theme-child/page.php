@@ -13,16 +13,18 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="site-content">
+<div class="<?php if(is_page('contact-us')) {echo 'narrow-content'; } ?>">
+	<div id="primary" class="site-content ">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
+				
 				<div class="title"><?php the_title(); ?></div>
 				<div class="content"><?php the_content(); ?></div>
+
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+</div>
 
 <?php get_footer(); ?>
