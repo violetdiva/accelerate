@@ -13,7 +13,9 @@
  */
 
 get_header(); ?>
-<div class="<?php if(is_page('contact-us')) {echo 'narrow-content'; } ?>">
+is_page()
+<div class="<?php if(is_page('page-about')) {echo ''; } ?>">
+
 	<div id="primary" class="site-content ">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
