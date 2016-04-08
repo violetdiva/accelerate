@@ -110,8 +110,8 @@ div.case-study-images img{
 
 .narrow-content{
 
-	margin-right: 180px;
-	margin-left: 180px;	
+	width: 60%;
+	margin: 0 auto;	
 }
 
 .header-main{
@@ -128,13 +128,15 @@ div.case-study-images img{
 	height: 60px;
 }
 
-#ninja_forms_field_1{
-width: 300px;
+#ninja_forms_field_1_div_wrap{
+width: 450px;
+float:left;
 
 }
 
-#ninja_forms_field_2{
-width: 300px;
+#ninja_forms_field_2_div_wrap{
+width: 450px;
+float: right;
 }
 
 .site-navigation{
