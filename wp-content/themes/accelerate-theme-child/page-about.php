@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying the about page
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,7 +14,6 @@
 
 get_header(); ?>
 is_page()
-<div class="<?php if(is_page('page-about')) {echo ''; } ?>">
 
 	<div id="primary" class="site-content ">
 		<div id="content" role="main">
@@ -32,6 +31,6 @@ is_page()
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-</div>
+
 
 <?php get_footer(); ?>

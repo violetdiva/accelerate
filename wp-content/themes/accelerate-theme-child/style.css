@@ -118,7 +118,13 @@ div.case-study-images img{
 
 }
 
-.menu-item{
+.menu-top-nav-container ul li{
+  text-transform: uppercase;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+//*.menu-item{
 	text-transform:uppercase;
 	float: left;
 	width: 12%;
@@ -126,7 +132,7 @@ div.case-study-images img{
 }
 #masthead{
 	height: 60px;
-}
+}*//
 
 #ninja_forms_field_1_div_wrap{
 width: 48%;
